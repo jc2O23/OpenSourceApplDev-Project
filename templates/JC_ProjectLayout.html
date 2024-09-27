@@ -1,0 +1,32 @@
+<!--John Campbell-->
+<!--CSC 341-->
+<!--Project-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>{% block title %}{% endblock %}</title>
+   <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+   <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='gridjs.css')}}" />
+   <link rel="stylesheet" type="text/css" href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" />
+   <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='JC_Project.css')}}" />
+</head>
+<body>
+
+   <h1>{% block header %}{% endblock %}</h1>
+   <ul class ="nav">
+       <li><a href="/JC_ProjectTable" >All Tables</a></li>
+       <li><a href="/JC_ProjectTable2">Item Table</a></li>
+       <li><a href="/JC_ProjectInsertMenu">New Menu</a></li>
+       <li><a href="/JC_ProjectInsertItem">New Item</a></li>
+       <li><a href="/JC_ProjectItemSides">Sides on Item</a></li>
+
+   </ul>
+   {% block content %}{% endblock %}
+
+
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!--John Campbell-->
+<!--CSC 341-->
+<!--Project-->
+
+{% extends "JC_ProjectLayout.html" %}
+
+{% block title %} {{title}} {% endblock title %}
+{% block header %} {{header}} {% endblock header %}
+
+{% block content %}
+
+<h2>Datatable Menus</h2>
+
+<div id="target"></div>
+
+<script>
+   new gridjs.Grid({
+      columns: {{ menu_columns|safe }},
+      data: {{ menu_data|safe }},
+      pagination: true,
+      sort: true,
+      search: true
+
+   }).render(document.getElementById('target'));
+</script>
+
+</br><br>
+
+<h2>Datatable Items</h2>
+
+<div id="target2"></div>
+
+<script>
+    new gridjs.Grid({
+       columns: {{ item_columns|safe }},
+       data: {{ item_data|safe }},
+       pagination: true,
+       sort: true,
+       search: true
+ 
+    }).render(document.getElementById('target2'));
+ </script>
+
+</br><br>
+
+<h2>Datatable Sides</h2>
+
+<div id="target3"></div>
+
+<script>
+    new gridjs.Grid({
+       columns: {{ side_columns|safe }},
+       data: {{ side_data|safe }},
+       pagination: true,
+       sort: true,
+       search: true
+ 
+    }).render(document.getElementById('target3'));
+ </script>
+
+{% endblock content %}

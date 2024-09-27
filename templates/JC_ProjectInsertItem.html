@@ -1,0 +1,68 @@
+<!--John Campbell-->
+<!--CSC 341-->
+<!--Project-->
+
+{% extends "JC_ProjectLayout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.item_name.label}}
+      <span class="error">{{ form.item_name.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.item_name}}
+   </div>
+ 
+</br>
+
+   <div>
+      {{form.item_price.label}}
+      <span class="error">{{ form.item_price.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.item_price}}
+   </div>
+
+</br>
+
+   <div>
+    {{form.item_course.label}}
+    <span class="error">{{ form.item_course.errors | join("|") }}</span>
+ </div>
+ <div>
+    {{form.item_course}}
+ </div>
+
+</br>
+
+ <div>
+    {{form.item_stock.label}}
+    <span class="error">{{ form.item_stock.errors | join("|") }}</span>
+ </div>
+ <div>
+    {{form.item_stock}}
+ </div>
+
+</br>
+
+ <div>
+    {{form.menu_id.label}}
+    <span class="error">{{ form.menu_id.errors | join("|") }}</span>
+ </div>
+ <div>
+    {{form.menu_id}}
+ </div>
+
+</br>
+
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}

@@ -1,0 +1,244 @@
+{
+	"menus": [
+		{
+			"menu_name": "Brunch",
+			"menu_start": "8AM", 
+			"menu_end": "2PM", 
+			"menu_days": "Weekends",
+			"menu_items" : [
+				{
+					"item_name": "French Toast",
+					"item_price": 15,
+					"item_course": "Entree",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Scrapple Sliders",
+					"item_price": 13,
+					"item_course": "Appitizer",
+					"item_stock": 65
+				},
+				{
+					"item_name": "Avocado Toast",
+					"item_price": 16,
+					"item_course": "Entree",
+					"item_stock": 33
+				},
+				{
+					"item_name": "Three Eggs",
+					"item_price": 9,
+					"item_course": "Entree",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Pork Roll Tacos",
+					"item_price": 14,
+					"item_course": "Appitizer",
+					"item_stock": 87
+				},
+				{
+					"item_name": "Bacon EggRolls",
+					"item_price": 10,
+					"item_course": "Appitizer",
+					"item_stock": 100
+				}
+			]
+		},
+		
+		{
+			"menu_name": "Dinner",
+			"menu_start": "2PM", 
+			"menu_end": "11PM", 
+			"menu_days": "All week",
+			"menu_items" : [
+				{
+					"item_name": "French Onion Soup",
+					"item_price": 8,
+					"item_course": "Appitizer",
+					"item_stock": 50
+				},
+				{
+					"item_name": "Buffalo Chicken Dip",
+					"item_price": 16,
+					"item_course": "Appitizer",
+					"item_stock": 88
+				},
+				{
+					"item_name": "Pierogis",
+					"item_price": 15,
+					"item_course": "Appitizer",
+					"item_stock": 15
+				},
+				{
+					"item_name": "Caesar Salad",
+					"item_price": 12,
+					"item_course": "Entree",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Cowboy Burger",
+					"item_price": 17,
+					"item_course": "Entree",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Chicken Parmesan",
+					"item_price": 19,
+					"item_course": "Entree",
+					"item_stock": 25
+				}
+			]
+		}, 
+		
+		{
+			"menu_name": "Dinner Specials",
+			"menu_start": "5PM", 
+			"menu_end": "11PM", 
+			"menu_days": "Weekends",
+			"menu_items" : [
+				{
+					"item_name": "Stuffed Mushroom",
+					"item_price": 16,
+					"item_course": "Appitizer",
+					"item_stock": 25
+				},
+				{
+					"item_name": "Cauliflower Tacos",
+					"item_price": 14,
+					"item_course": "Appitizer",
+					"item_stock": 30
+				},
+				{
+					"item_name": "Shrimp and Clam Carbonara",
+					"item_price": 21,
+					"item_course": "Entree",
+					"item_stock": 16
+				},
+				{
+					"item_name": "Sriracha Salmon Salad",
+					"item_price": 23,
+					"item_course": "Entree",
+					"item_stock": 12
+				}
+			]
+		}, 
+		
+		{
+			"menu_name": "Lunch Specials",
+			"menu_start": "11PM", 
+			"menu_end": "2PM", 
+			"menu_days": "Weekdays",
+			"menu_items" : [
+				{
+					"item_name": "Margherita Flatbread",
+					"item_price": 12,
+					"item_course": "Appitizer",
+					"item_stock": 43
+				},
+				{
+					"item_name": "Monte Cristo",
+					"item_price": 15,
+					"item_course": "Entree",
+					"item_stock": 31
+				},
+				{
+					"item_name": "Salmon Tacos",
+					"item_price": 16,
+					"item_course": "Appitizer",
+					"item_stock": 11
+				},
+				{
+					"item_name": "BBQ Chicken Wrap",
+					"item_price": 13,
+					"item_course": "Entree",
+					"item_stock": 67
+				}
+			]
+		}, 
+		{
+			"menu_name": "Dessert",
+			"menu_start": "11AM", 
+			"menu_end": "11PM", 
+			"menu_days": "All week",
+			"menu_items" : [
+				{
+					"item_name": "Chocolate Lava",
+					"item_price": 9,
+					"item_course": "Dessert",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Cheesecake",
+					"item_price": 9,
+					"item_course": "Dessert",
+					"item_stock": 89
+				},
+				{
+					"item_name": "Chocolate Chip Cookie",
+					"item_price": 10,
+					"item_course": "Dessert",
+					"item_stock": 40
+				},
+				{
+					"item_name": "Vanilla Ice Cream",
+					"item_price": 7,
+					"item_course": "Dessert",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Bundt Cake",
+					"item_price": 13,
+					"item_course": "Dessert",
+					"item_stock": 44
+				}
+			]
+		},
+		{
+			"menu_name": "Drinks",
+			"menu_start": "11AM", 
+			"menu_end": "11PM", 
+			"menu_days": "All week",
+			"menu_items" : [
+				{
+					"item_name": "Soda",
+					"item_price": 3,
+					"item_course": "Drink",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Water",
+					"item_price": 0,
+					"item_course": "Drink",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Coffee",
+					"item_price": 4,
+					"item_course": "Drink",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Beer",
+					"item_price": 5,
+					"item_course": "Drink",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Mixed Drink",
+					"item_price": 15,
+					"item_course": "Drink",
+					"item_stock": 100
+				},
+				{
+					"item_name": "Liquor",
+					"item_price": 12,
+					"item_course": "Drink",
+					"item_stock": 100
+				}
+			]
+		}
+		]
+}
+
+		
+		
